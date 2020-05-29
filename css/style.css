@@ -1,0 +1,92 @@
+/* Inspired by https://codepen.io/pastillita/pen/gxmYyE */
+
+body {
+  background: gray;
+}
+
+.box {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  margin: auto;
+  overflow: hidden;
+  color: #fff;
+  background: #fff;
+  border: 20px solid #fff;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+
+.blue-triangle {
+  position: absolute;
+  left: 16%;
+  width: 67%;
+  height: 67%;
+  background: #5cb4cd;
+  transform: rotate(-45deg);
+  bottom: -34%;
+}
+
+.gray-triangle {
+  position: absolute;
+  left: -34%;
+  width: 67%;
+  height: 67%;
+  background: #5a6379;
+  transform: rotate(-45deg);
+  bottom: 15%;
+}
+
+.green-parallel {
+  position: absolute;
+  left: -12%;
+  width: 82%;
+  height: 22%;
+  background: #8bd923;
+  top: 0%;
+  clip-path: polygon(16% 0, 70% 0, 100% 100%, 45% 100%);
+}
+
+.orange-triangle {
+  position: absolute;
+  right: 27%;
+  width: 46%;
+  height: 46%;
+  background: #f1a600;
+  bottom: 29.5%;
+  clip-path: polygon(50% 50%, 0 0, 100% 0);
+}
+
+.green-square {
+  position: absolute;
+  right: 8%;
+  width: 33%;
+  height: 33%;
+  background: #88d624;
+  transform: rotate(-45deg);
+  bottom: 34%;
+}
+
+.small-triangle {
+  position: absolute;
+  right: -17%;
+  width: 33%;
+  height: 33%;
+  background: #f1a600;
+  transform: rotate(-45deg);
+  bottom: 8%;
+}
+
+.top-triangle {
+  position: absolute;
+  right: 0;
+  width: 47%;
+  height: 45%;
+  background: #5cb4cd;
+  top: 0%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
